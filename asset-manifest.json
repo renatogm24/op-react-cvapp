@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/op-react-cvapp/static/css/main.a617e044.chunk.css",
+    "main.js": "/op-react-cvapp/static/js/main.fbe6be19.chunk.js",
+    "main.js.map": "/op-react-cvapp/static/js/main.fbe6be19.chunk.js.map",
+    "runtime-main.js": "/op-react-cvapp/static/js/runtime-main.4c186e29.js",
+    "runtime-main.js.map": "/op-react-cvapp/static/js/runtime-main.4c186e29.js.map",
+    "static/js/2.a2ca1d7d.chunk.js": "/op-react-cvapp/static/js/2.a2ca1d7d.chunk.js",
+    "static/js/2.a2ca1d7d.chunk.js.map": "/op-react-cvapp/static/js/2.a2ca1d7d.chunk.js.map",
+    "static/js/3.0c502650.chunk.js": "/op-react-cvapp/static/js/3.0c502650.chunk.js",
+    "static/js/3.0c502650.chunk.js.map": "/op-react-cvapp/static/js/3.0c502650.chunk.js.map",
+    "index.html": "/op-react-cvapp/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/op-react-cvapp/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.a2ca1d7d.chunk.js.LICENSE.txt": "/op-react-cvapp/static/js/2.a2ca1d7d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/op-react-cvapp/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c186e29.js",
+    "static/js/2.a2ca1d7d.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.fbe6be19.chunk.js"
+  ]
+}
