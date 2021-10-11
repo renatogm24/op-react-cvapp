@@ -1,38 +1,232 @@
+.sectionClose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    width: 85vw;
+    padding: 25px 0px 25px 0px;
+    margin: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.sectionOpen {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    width: 85vw;
+    padding: 25px 0px 25px 0px;
+    margin: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circleBtn {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.sectionBody {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.onSubmitElement {
+    align-self: flex-end;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #3e94e4;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.onPreviewElement {
+    align-self: center;
+    justify-self: center;
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #3e94e4;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.onAddElement {
+    align-self: center;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+input {
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 35px;
+}
+
+.element {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0px 15px 0px;
+    display: flex;
+}
+
+.elementPersonal {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0px 15px 0px;
+    display: flex;
+}
+
+.elementData {
+    width: 80%;
+}
+
+.elementActions {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 20%;
+}
+
+.elementActions button {
+    height: fit-content;
+    border: none;
+    background-color: white;
+}
+
+.previewHeader {
+    background-color: #303846;
+    color: white;
+    width: 85vw;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+.previewTitle {
+    font-size: 22px;
+}
+
+.previewInfo {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.previewInfo2 {
+    margin-right: 20px;
+}
+
+.previewSection {
+    margin-top: 0px;
+    padding: 20px 10px 20px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.previewSectionInfo {
+    margin-bottom: 12px;
+}
+
+.previewSectionTitle {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 600px) {
+    .sectionClose {
+        width: 40vw;
+    }
+    .sectionOpen {
+        width: 40vw;
+    }
+    .previewHeader {
+        width: 40vw;
+    }
+}
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
